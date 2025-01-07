@@ -1,0 +1,68 @@
+
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    padding: 20px;
+    background-color: #f4f7fa; 
+    font-family: 'Arial', sans-serif;
+  }
+  
+  
+  .user-info-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 30px;
+    max-width: 600px; 
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+ 
+  h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+ 
+  p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  
+  strong {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  
+ 
+  @media (max-width: 600px) {
+    .user-info-box {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
